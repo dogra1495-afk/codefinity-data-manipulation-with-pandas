@@ -8,7 +8,7 @@ cars_data = {'model': ['Audi A1', 'Audi A6', 'Audi A4', 'Audi A3','Audi A1'],
 audi_cars = pd.DataFrame(cars_data)
 
 # Write your code below
-audi_cars = ___
+audi_cars = audi_cars.drop(columns = ['capital'],axis=3)
 
 # Testing the result
 print(audi_cars)
